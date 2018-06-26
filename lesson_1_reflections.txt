@@ -1,0 +1,22 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+I was able to quickly find the differences between two files so I could trace down where the error was introduced. This was a LOT easier than trying to compare every line by hand to locate the error.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Having prior versions allows me to see the progression of the code development especially if I wasn't in complete control of said code from beginning to end. I can also revert back to prior version based on date if I know a certain feature/bug happened around a specific date period.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+With manual commits, I control how/small the content is for each commit and can make sure it's a logical breakpoint. The con of manual commits is that I can sloppy and forget to perform them at the right time. With auto commits, I don't have to worry about forgetting to perform them since they will be automatically taken. A con is the contents of these automatic commits may not contain completed code or even be compilable.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Because code is often separated into multiple files which then have dependence.
+
+How can you use the commands git log and git diff to view the history of files?
+I can use git log to look thru the various commits. And, I can use git diff with two commit IDs to get the difference between them so I can more easily understand what changed.
+
+How might using version control make you more confident to make changes that could break something?
+If I use commits properly, I can always revert back my changes and undo anything I broken with my updates.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Various development projects in R and Python. Will probably come in very handy for the PSU Data Mining Course this Fall.
+
+
