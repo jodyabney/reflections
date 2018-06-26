@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+Git establishes the metadata necessary to track the changes in my directory. I need to setup git to track the changes in my directory because git won't track it unless I've set it up first.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The repository is where the commits are handled/stored based on items added to the staging area from the working directory. The staging area provides control over what files get added in a commit. The working directory contains all the files you might add to a repository via commits.
+
