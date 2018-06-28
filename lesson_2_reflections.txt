@@ -4,3 +4,15 @@ Git establishes the metadata necessary to track the changes in my directory. I n
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The repository is where the commits are handled/stored based on items added to the staging area from the working directory. The staging area provides control over what files get added in a commit. The working directory contains all the files you might add to a repository via commits.
 
+How can you use the staging area to make sure you have one commit per logical change?
+I can use git diff --staged to check the changes staged versus the latest commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When I want to experiment with a new feature/change without impacting my already working version. Branching allows me to create a new copy and work on that copy without impacting my already working version.
+
+How do the diagrams help you visualize the branch structure?
+Diagrams always help me because I'm a visual learner. These diagrams make it much easier to understand the concept of an unreachable commit (one not associated with a branch).
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+NEED TO COME BACK AND ANSWER THIS one
+
